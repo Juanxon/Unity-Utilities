@@ -1,0 +1,245 @@
+.removeButton {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    align-self: center;
+    margin-right: 3px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 3px;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    font-size: 13px;
+    align-content: center;
+    align-items: stretch;
+    width: 10%;
+    height: 10%;
+    background-color: rgb(145, 23, 23);
+    transition-duration: 0.15s;
+}
+
+.text {
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    padding-top: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    font-size: 13px;
+    -unity-font-style: bold;
+    -unity-text-outline-width: 0.3px;
+    -unity-text-outline-color: rgba(0, 0, 0, 0.69);
+    white-space: normal;
+    text-overflow: clip;
+    -unity-text-align: middle-left;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.buttonSection {
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    flex-wrap: nowrap;
+    background-color: var(--unity-colors-default-background);
+    border-left-color: rgba(0, 0, 0, 0.44);
+    border-right-color: rgba(0, 0, 0, 0.44);
+    border-top-color: rgba(0, 0, 0, 0.44);
+    border-bottom-color: rgba(0, 0, 0, 0.44);
+    border-bottom-width: 2px;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-self: stretch;
+    font-size: 7px;
+}
+
+.removeButton:hover {
+    scale: 1.15 1.15;
+}
+
+.button:hover {
+    scale: 1.06 1.06;
+    -unity-font-style: bold;
+}
+
+.headerText {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    font-size: 17px;
+    -unity-font-style: bold;
+    -unity-text-outline-width: 0.4px;
+    -unity-text-outline-color: rgba(0, 0, 0, 0.69);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.67);
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+}
+
+.button {
+    font-size: 13px;
+    -unity-text-align: middle-center;
+    margin-top: 3px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    margin-left: 3px;
+    padding-top: 6px;
+    padding-right: 6px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+    width: 90%;
+    white-space: normal;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-width: 3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+    height: 80%;
+    transition-duration: 0.2s;
+    flex-wrap: wrap;
+    opacity: 1;
+    align-self: center;
+    -unity-font-style: bold;
+    border-left-color: rgba(0, 0, 0, 0.39);
+    border-right-color: rgba(0, 0, 0, 0.39);
+    border-top-color: rgba(0, 0, 0, 0.39);
+    border-bottom-color: rgba(0, 0, 0, 0.39);
+}
+
+.removeButton {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    align-self: center;
+    margin-right: 3px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 3px;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    font-size: 13px;
+    align-content: center;
+    align-items: stretch;
+    width: 24px;
+    height: 24px;
+    background-color: rgb(145, 23, 23);
+    transition-duration: 0.15s;
+}
+
+.selectedSection {
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    flex-wrap: nowrap;
+    border-top-width: 2.2px;
+    border-right-width: 2.2px;
+    border-bottom-width: 2.2px;
+    border-left-width: 2.2px;
+    border-left-color: rgba(0, 86, 172, 0.78);
+    border-right-color: rgba(91, 125, 172, 0.78);
+    border-top-color: rgba(0, 63, 172, 0.78);
+    border-bottom-color: rgba(0, 112, 172, 0.78);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: rgba(41, 53, 63, 0.39);
+    flex-direction: column;
+}
+
+.headerBackground {
+    background-color: rgb(53, 84, 130);
+    height: -1%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.openContent {
+    width: 4%;
+    height: 75%;
+    align-self: center;
+    border-left-color: rgba(104, 184, 203, 0.39);
+    border-right-color: rgba(104, 203, 107, 0.39);
+    border-top-color: rgba(111, 209, 187, 0.39);
+    border-bottom-color: rgba(104, 203, 181, 0.39);
+    background-color: rgb(120, 80, 128);
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 9px;
+    border-bottom-left-radius: 2px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+}
+
+.button {
+    font-size: 13px;
+    -unity-text-align: middle-center;
+    margin-top: 3px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    margin-left: 3px;
+    padding-top: 6px;
+    padding-right: 6px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+    width: 90%;
+    white-space: normal;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-width: 3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+    height: 80%;
+    transition-duration: 0.2s;
+    flex-wrap: wrap;
+    opacity: 1;
+    align-self: center;
+    -unity-font-style: bold;
+    border-left-color: rgba(0, 0, 0, 0.39);
+    border-right-color: rgba(0, 0, 0, 0.39);
+    border-top-color: rgba(0, 0, 0, 0.39);
+    border-bottom-color: rgba(0, 0, 0, 0.39);
+}

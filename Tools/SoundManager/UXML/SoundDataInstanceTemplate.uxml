@@ -1,0 +1,25 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Scripts/Managers/SoundManager/New/UXML/SoundManagerStyle.uss?fileID=7433441132597879392&amp;guid=13ddb3ddcbd088f479f47b9c84fbaa45&amp;type=3#SoundManagerStyle" />
+    <engine:VisualElement name="SoundDataInstance" class="selectedSection" style="flex-grow: 1;">
+        <engine:VisualElement name="headerContainer" class="headerBackground" style="flex-grow: 1; flex-direction: row;">
+            <engine:Button name="hideContentButton" class="button" style="width: 100%; height: 100%; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; background-color: rgba(188, 188, 188, 0); border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 0; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; border-left-color: rgba(0, 0, 0, 0); border-right-color: rgba(0, 0, 0, 0); border-top-color: rgba(0, 0, 0, 0); border-bottom-color: rgba(0, 0, 0, 0); -unity-text-align: middle-left; transform-origin: 56%;">
+                <engine:Label text="Title" name="soundTitleLabel" class="headerText" style="width: 100%; -unity-text-align: middle-center; white-space: normal; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px;" />
+            </engine:Button>
+        </engine:VisualElement>
+        <engine:VisualElement enabled="true" name="contentVE" style="flex-grow: 1; opacity: 1;">
+            <engine:TextField label="Sound Name" placeholder-text="Sound Name" view-data-key="soundName" name="soundNameTextField" class="text" />
+            <editor:ObjectField label="Mixer Group" view-data-key="mixerGroup" name="mixerGroupObjectField" type="UnityEngine.Audio.AudioMixer, UnityEngine.AudioModule" class="text" />
+            <editor:PropertyField name="audiosList" class="text" />
+            <engine:Slider label="Volume" high-value="1" name="volumeSlider" show-input-field="true" value="1" class="text" />
+            <engine:Toggle label="Use Pitch" name="usePitchToggle" enabled="true" value="false" class="text" />
+            <engine:VisualElement name="pitchSlidersContainer">
+                <engine:Slider label="Min Pitch" value="0.8" high-value="1" direction="Horizontal" show-input-field="true" inverted="true" name="minPitchSlider" class="text" />
+                <engine:Slider label="Max Pitch" value="1.2" high-value="2" show-input-field="true" low-value="1" name="maxPitchSlider" class="text" />
+            </engine:VisualElement>
+            <engine:VisualElement name="buttonsContainer" style="flex-grow: 1; flex-direction: row; flex-wrap: nowrap; justify-content: space-evenly; align-content: auto; align-self: auto;">
+                <engine:Button text="▶ Test Sound" name="testSoundButton" class="button" style="width: 40%; background-color: rgb(73, 174, 73);" />
+                <engine:Button text="✕ Remove" name="removeButton" class="button" style="width: 40%; background-color: rgb(174, 52, 52);" />
+            </engine:VisualElement>
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>
