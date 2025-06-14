@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ecf38848e380ed0459e3025cd783034b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301625
+  packageName: 'Editor Scene Manager: Scene Organizer'
+  packageVersion: 1.0.1
+  assetPath: Assets/EditorSceneManager/SceneCollections/SceneCollection.asset
+  uploadId: 709804

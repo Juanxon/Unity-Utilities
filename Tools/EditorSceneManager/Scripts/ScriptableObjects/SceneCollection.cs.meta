@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 496ebfc3b80d08b4d83e8b6c84a74e6f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301625
+  packageName: 'Editor Scene Manager: Scene Organizer'
+  packageVersion: 1.0.1
+  assetPath: Assets/EditorSceneManager/Scripts/ScriptableObjects/SceneCollection.cs
+  uploadId: 709804

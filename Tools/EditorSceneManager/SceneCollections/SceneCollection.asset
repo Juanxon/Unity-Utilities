@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 496ebfc3b80d08b4d83e8b6c84a74e6f, type: 3}
+  m_Name: SceneCollection
+  m_EditorClassIdentifier: 
+  scenes:
+  - sceneName: Sandbox
+    scenePath: Assets/Scenes/Sandbox.unity
+    savedColor: {r: 0, g: 0, b: 0, a: 0}
+    isHeader: 0
+  - sceneName: DEMOS
+    scenePath: 
+    savedColor: {r: 0.4664364, g: 0.6676376, b: 0.98490566, a: 1}
+    isHeader: 1
+  - sceneName: SandboxTemplate
+    scenePath: Assets/Scenes/SandboxTemplate.unity
+    savedColor: {r: 0, g: 0, b: 0, a: 0}
+    isHeader: 0
+  - sceneName: HandGestures
+    scenePath: Assets/Samples/XR Hands/1.5.0/Gestures/HandGestures.unity
+    savedColor: {r: 0, g: 0, b: 0, a: 0}
+    isHeader: 0
+  - sceneName: LEVELS
+    scenePath: 
+    savedColor: {r: 1, g: 0.86318964, b: 0.390566, a: 1}
+    isHeader: 1
+  - sceneName: FootballMiniGame
+    scenePath: Assets/Scenes/FootballMiniGame.unity
+    savedColor: {r: 0, g: 0, b: 0, a: 0}
+    isHeader: 0
+  - sceneName: CompleteWordsMiniGame
+    scenePath: Assets/Scenes/CompleteWordsMiniGame.unity
+    savedColor: {r: 0, g: 0, b: 0, a: 0}
+    isHeader: 0
+  - sceneName: SpaceShipMiniGame
+    scenePath: Assets/Scenes/SpaceShipMiniGame.unity
+    savedColor: {r: 0, g: 0, b: 0, a: 0}
+    isHeader: 0
+  - sceneName: ShopMiniGame
+    scenePath: Assets/Scenes/ShopMiniGame.unity
+    savedColor: {r: 0, g: 0, b: 0, a: 0}
+    isHeader: 0

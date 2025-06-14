@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 161256e7ca922fd4397e451d1eb64d73
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301625
+  packageName: 'Editor Scene Manager: Scene Organizer'
+  packageVersion: 1.0.1
+  assetPath: Assets/EditorSceneManager/Documentation.pdf
+  uploadId: 709804

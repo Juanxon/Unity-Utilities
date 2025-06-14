@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8f16aba61daf827459e53d7a8c6db13f
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301625
+  packageName: 'Editor Scene Manager: Scene Organizer'
+  packageVersion: 1.0.1
+  assetPath: Assets/EditorSceneManager/DemoScene.unity
+  uploadId: 709804
